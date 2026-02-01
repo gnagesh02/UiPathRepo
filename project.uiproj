@@ -1,0 +1,6 @@
+{
+  "Name": "FixMyWorkflow_Starting Project",
+  "ProjectType": "Process",
+  "Description": "Reads employee data from an Excel file, opens a browser window, navigates to the RPA Challenge Website, clicks on the \"Start\" button and enters the employee data into the RPA Challenge forms. \n\nDisclaimer: This workflow is created for demonstration purposes. ",
+  "MainFile": "Main.xaml"
+}
