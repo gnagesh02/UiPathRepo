@@ -130,7 +130,7 @@
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ueab:ReadRangeX sap2010:Annotation.AnnotationText="Read data from the Excel File" DisplayName="Read Range from &quot;Sheet1&quot; and store it into dt_Users" sap:VirtualizedContainerService.HintSize="444,238" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[UsersExcel.Sheet(&quot;Sheet1&quot;)]" ReadFormatting="RawValue" SaveTo="[dt_Users]" VisibleOnly="False">
+                  <ueab:ReadRangeX sap2010:Annotation.AnnotationText="Read data from the Excel File BB" DisplayName="Read Range from &quot;Sheet1&quot; and store it into dt_Users" sap:VirtualizedContainerService.HintSize="444,238" sap2010:WorkflowViewState.IdRef="ReadRangeX_1" Range="[UsersExcel.Sheet(&quot;Sheet1&quot;)]" ReadFormatting="RawValue" SaveTo="[dt_Users]" VisibleOnly="False">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
@@ -243,4 +243,5 @@
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
   </Sequence>
+
 </Activity>
